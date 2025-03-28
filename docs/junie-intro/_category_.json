@@ -1,0 +1,8 @@
+{
+  "label": "AI智能体编程 - Junie ",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Junie是一个AI Agent，用户仅需输入少量的指令，Junie将自动编码、调试。功能定位与Cursor Composer、GitHub Copilot Edit一致。"
+  }
+}

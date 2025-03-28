@@ -1,0 +1,8 @@
+{
+  "label": "AI编程助手 - AI Assistant",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "AI Assistant提供代码多行补全、问答生成代码、PR建议等功能，与IntelliJ IDE的各种功能深度绑定，功能定位与GitHub Copilot一致。"
+  }
+}
