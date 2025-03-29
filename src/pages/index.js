@@ -2,8 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
+import {QRCodeSVG} from 'qrcode.react';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -16,11 +15,28 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <QRCodeSVG
+          value={siteConfig.url}
+          title={"扫码访问文档"}
+          size={128}
+          bgColor={"#ffffff"}
+          fgColor={"#000000"}
+          level={"L"}
+          imageSettings={{
+            src: siteConfig.favicon,
+            x: undefined,
+            y: undefined,
+            height: 24,
+            width: 24,
+            opacity: 1,
+            excavate: true,
+          }}
+        />
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            快速上手
           </Link>
         </div>
       </div>
@@ -32,12 +48,9 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`快速上手${siteConfig.title}`}
+      description="为JetBrains AI的中国用户设计的上手指南">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }
