@@ -6,6 +6,8 @@ sidebar_position: 1
 
 国际版使用JetBrains AI提供的全球模型，**需要网络能够访问OpenAI和Claude**
 
+![allModules.png](imgs/allModules.png)
+
 参考第一节"**👨🏻‍💻 IDE中设置区域**"配置好IDE区域后，如果仍然无法使用国际版AI Assistant，可以参考如下步骤：
 
 1. 打开**Settings | Appearance & Behavior | System Settings | Language and Region** 检查确认地区
