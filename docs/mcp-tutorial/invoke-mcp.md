@@ -19,19 +19,19 @@ MCP插件更新很快，MCP Server IDE插件与Proxy版本均需保持最新，�
 
 ## MCP玩法与功能展示
 
-## 识别项目类型，读取上下文
+### 识别项目类型，读取上下文
 
 ![project-type](imgs/project-type.png)
 
-## 获取项目详细内容，项目细节问答
+### 获取项目详细内容，项目细节问答
 
 ![QnA with MCP](imgs/qna-mcp.png)
 
-## 项目细节修改，代码生成与插入
+### 项目细节修改，代码生成与插入
 
 ![Code Generation with MCP](imgs/code-gen-mcp.png)
 
-## 审查项目运行逻辑，添加断点
+### 审查项目运行逻辑，添加断点
 ![Add breakpoints with MCP](imgs/breakpoints-mcp.png)
 
 :::tip
