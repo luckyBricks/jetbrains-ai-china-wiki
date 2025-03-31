@@ -11,6 +11,7 @@ MCP Server插件支持**所有IntelliJ IDE**，包括 `Rider` `Android Studio`�
 MCP Server插件分为两个部分：
 * JetBrains Marketplace的[MCP Server插件](https://plugins.jetbrains.com/plugin/26071-mcp-server)
 ![插件市场中的MCP Server插件](imgs/mcp-server-marketplace.png)
+
 * 负责向MCP Client暴露tools接口的[MCP Proxy](https://github.com/JetBrains/mcp-jetbrains/tree/main)
 
 在MCP Client中配置时仅需通过JSON加载MCP Proxy，其将自动代理流量到IDE中。
