@@ -3,6 +3,6 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "借助MCP Plugin，用户可以从Claude Desktop，ChatGPT，甚至是Cursor、Windsurf等AI编辑器中调用JetBrains IDE"
+    "description": "借助MCP Server Plugin，用户可以从Claude Desktop，ChatGPT，甚至是Cursor、Windsurf等AI编辑器中调用JetBrains IDE"
   }
 }
