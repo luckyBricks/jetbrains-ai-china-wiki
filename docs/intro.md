@@ -16,6 +16,9 @@ AI IDE 能力要强于 AI Editor，也就是
 **IntelliJ IDE + AI Assistant + Junie** >> Cursor **|** Windsurf **|** GitHub Copilot **|** TongYi **|** Trae ...
 :::
 
+> AI Assistant + Junie的快速配置视频
+> <iframe width="700" height="480" src="//player.bilibili.com/player.html?isOutside=true&aid=114260826982717&bvid=BV1Y8Z4YnErz&cid=29177415009&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 目前JetBrains AI提供的模型（标⭐️的代码生成与问答的效果更好）：
 
 **Anthropic:**
@@ -48,3 +51,4 @@ AI IDE 能力要强于 AI Editor，也就是
 
 在JetBrains国区[以半价购买AI Pro](https://www.jetbrains.com.cn/ai/)的订阅再转出，**35元/月**即拥有所有模型的访问权限。
 :::
+
