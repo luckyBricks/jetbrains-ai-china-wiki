@@ -11,9 +11,9 @@ JetBrians AI 集成了**Google，Anthropic，OpenAI，阿里通义**提供的LLM
 :::info
 **JetBrains AI = AI Assistant + Junie** + 一系列AI相关产品
 
-AI IDE 能力要强于 AI Editor，也就是
+AI IDE 能力要强于 AI Editor，JetBrains AI和服务是IntelliJ平台上功能最全、集成最优的AI辅助编程方案
 
-**IntelliJ IDE + AI Assistant + Junie** >> Cursor **|** Windsurf **|** GitHub Copilot **|** TongYi **|** Trae ...
+**IntelliJ IDE + AI Assistant + Junie** > Cursor **|** Windsurf **|** GitHub Copilot **|** TongYi **|** Trae ...
 :::
 
 > AI Assistant + Junie的快速配置视频

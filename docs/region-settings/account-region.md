@@ -8,3 +8,7 @@ sidebar_position: 1
 2. 点击右上角用户头标，点击Manage Account
 
 ![配置账户区域](imgs/accregion.png)
+
+:::danger
+账户区域每30天内只能修改一次
+:::

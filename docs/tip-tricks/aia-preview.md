@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # AI Assistant功能概览
 
-AI Assistant是一个类似GitHub Copilot的编程助手，其主要功能有问答Chat和改写Edit两大模块；
+*本文中涉及的功能更新于AI Assistant 2025.1版本*
+
+AI Assistant是一个类似GitHub Copilot的编程助手，其主要功能有问答Chat和改写Edit两大模块
 
 ![调整AI Assistant的工作模式](imgs/mode-select.png)
 
@@ -61,3 +63,33 @@ IntelliJ IDE还有一个功能是Full Line Code Completion（FLCC，中文名全
 :::
 
 ## AI Assistant的其他集成（更新中）
+
+### 在编辑器内选择代码作为提示词
+
+按下`Alt + Enter`在上下文快捷菜单选择代码并作为开启新聊天的提示词
+
+![选择内容开启新聊天](imgs/new-chat-aia.png)
+
+:::tip
+如果直接从外部粘贴代码到聊天窗口，有可能提示超过token长度限制
+
+从上下文快捷菜单中访问AI操作则不会有这个问题
+:::
+
+### 利用AI Assistant生成提交信息
+
+在提交窗口可以选择让AI Assistant生成提交信息，生成相关内容的提示词也可进行自定义
+
+:::tip
+比如，你可以配置按照Conventional Commits的标准生成提交信息，或者指定用中文生成提交等
+:::
+
+![生成提交信息](imgs/generate-commit-aia.png)
+
+### 在内嵌终端输入自然语言生成CLI命令
+
+如果遗忘了某个CLI命令，可以在终端内调用AI Assistant，生成命令
+
+![生成命令行](imgs/generate-cli.png)
+
+### 在项目运行时直接根据错误信息进行提问
